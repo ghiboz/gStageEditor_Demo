@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shaderFisico 2
+  m_Shader: {fileID: 4800000, guid: 7786133a6ed97ba4c88e46d2f9ed1bb2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: e9e4dcaa726736748bbb0400b0026f9d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrooveMap:
+        m_Texture: {fileID: 2800000, guid: 53f0499fd184bd1479051eb12e5e70ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: 1871dadb1bfd58b4fb260a16d7a01b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalmapPiatta:
+        m_Texture: {fileID: 2800000, guid: 69f3645c86d6b2445bfc5c33feec6a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalpiatto:
+        m_Texture: {fileID: 2800000, guid: 1871dadb1bfd58b4fb260a16d7a01b2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular_WetMap:
+        m_Texture: {fileID: 2800000, guid: 8d4d8d6dbc279894a84213497d9556d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 9789d23040cb1fb45ad60392430c3c15, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.15
+    - _Displacement: 0
+    - _EdgeLength: 10
+    - _Float0: 0.17
+    - _Float2: -1.16
+    - _Groove: 1
+    - _TessMax: 10
+    - _TessMaxDisp: 4
+    - _TessMin: 3
+    - _TessValue: 20
+    - _ToggleSwitch0: 0
+    - _UseGro: 0
+    - _UseGrooveTex: 0
+    - _Wet: 0
+    - __dirty: 0
+    - _displacement: 0
+    m_Colors: []
