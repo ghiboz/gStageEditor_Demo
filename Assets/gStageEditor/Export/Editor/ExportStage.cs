@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.IO;
 using System;
+using System.Globalization;
 using UnityEditor.SceneManagement;
 
 public class ExportStages
@@ -159,14 +160,10 @@ public class ExportStages
             xml.Settings[TRAILS].WriteFloat("trailBump", s.TrailBump);
 
             var SMOKE = string.Format("SurfaceLibrary/Surface#{0}/Smoke", i + 1);
-            xml.Settings[SMOKE].WriteString("smokeStart", c4(s.SmokeStart));
-            xml.Settings[SMOKE].WriteString("smokeStartVariation", c4(s.SmokeStartVariation));
-            xml.Settings[SMOKE].WriteString("smokeEnd", c4(s.SmokeEnd));
-            xml.Settings[SMOKE].WriteString("smokeEndVariation", c4(s.SmokeEndVariation));
             xml.Settings[SMOKE].WriteVector2("lifeTime", v2(s.LifeTime));
-            xml.Settings[SMOKE].WriteVector2("speed", v2(s.Speed));
-            xml.Settings[SMOKE].WriteVector2("sizeStart", v2(s.SizeStart));
-            xml.Settings[SMOKE].WriteVector2("sizeEnd", v2(s.SizeEnd));
+            xml.Settings[SMOKE].WriteVector2("size", v2(s.Size));
+            xml.Settings[SMOKE].WriteFloat("gravity", s.Gravity);
+            xml.Settings[SMOKE].WriteString("gradient", gradient(s.GradientColor));
         }
     }
 
@@ -489,5 +486,24 @@ public class ExportStages
     static gUtility.Vector2 v2(Vector2 value)
     {
         return new gUtility.Vector2(value.x, value.y);
+    }
+
+    static string gradient(Gradient color)
+    {
+        var ret = string.Format("{0};", color.colorKeys.Length);
+        foreach (var k in color.colorKeys)
+        {
+            ret += string.Format("{0}_{1};", c4(k.color), k.time.ToString(CultureInfo.InvariantCulture.NumberFormat));
+        }
+        ret = ret.Remove(ret.Length - 1);
+
+        ret += string.Format("|{0};", color.alphaKeys.Length);
+        foreach (var a in color.alphaKeys)
+        {
+            ret += string.Format("{0}_{1};", a.alpha.ToString(CultureInfo.InvariantCulture.NumberFormat), a.time.ToString(CultureInfo.InvariantCulture.NumberFormat));
+        }
+        ret = ret.Remove(ret.Length - 1);
+        ret += string.Format("|{0}", color.mode);
+        return ret;
     }
 }

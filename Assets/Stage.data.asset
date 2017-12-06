@@ -11,47 +11,95 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f62c0a425dce242a56a55d5eaabc31, type: 3}
   m_Name: Stage.data
   m_EditorClassIdentifier: 
-  exportPath: C:/Temp/gStageEditor
+  exportPath: C:/Temp/gStageDemo
   latitude: 44.49639
   longitude: 7.5847335
   north: 78
   surfaceList:
-  - Type: 1
-    Name: Tarmac max grip
+  - Name: Tarmac max grip
+    Type: 1
     PhysColor: {r: 0, g: 0, b: 0, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 1
     Drag: 0
     Bump: {x: 0, y: 2}
     TrailColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
-    SmokeStartVariation: {r: 0.101960786, g: 0.101960786, b: 0.14901961, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    SmokeEndVariation: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    LifeTime: {x: 4, y: 1}
-    Speed: {x: 0.4, y: 0.1}
-    SizeStart: {x: 0.5, y: 0.6}
-    SizeEnd: {x: 1.5, y: 0.75}
-  - Type: 1
-    Name: Tarmac med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 0.6}
+      key1: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 0.48}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 1.2}
+    Size: {x: 0, y: 0.8}
+    Gravity: -0.02
+  - Name: Tarmac med grip
+    Type: 1
     PhysColor: {r: 0.1882353, g: 0.1882353, b: 0.1882353, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 1
     Drag: 0
     Bump: {x: 0, y: 2}
     TrailColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
-    SmokeStartVariation: {r: 0.101960786, g: 0.101960786, b: 0.14901961, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    SmokeEndVariation: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    LifeTime: {x: 4, y: 1}
-    Speed: {x: 0.4, y: 0.1}
-    SizeStart: {x: 0.5, y: 0.6}
-    SizeEnd: {x: 1.5, y: 0.75}
-  - Type: 1
-    Name: Tarmac min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 0.6}
+      key1: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 0.48}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 1.2}
+    Size: {x: 0, y: 0.8}
+    Gravity: -0.02
+  - Name: Tarmac min grip
+    Type: 1
     PhysColor: {r: 0.3764706, g: 0.3764706, b: 0.3764706, a: 1}
     UsableGrip: 0
     Rolling: 1
@@ -59,50 +107,122 @@ MonoBehaviour:
     Bump: {x: 0, y: 2}
     TrailColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
-    SmokeStartVariation: {r: 0.101960786, g: 0.101960786, b: 0.14901961, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    SmokeEndVariation: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    LifeTime: {x: 4, y: 1}
-    Speed: {x: 0.4, y: 0.1}
-    SizeStart: {x: 0.5, y: 0.6}
-    SizeEnd: {x: 1.5, y: 0.75}
-  - Type: 3
-    Name: Gravel max grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 0.6}
+      key1: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 0.48}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 1.2}
+    Size: {x: 0, y: 0.8}
+    Gravity: -0.02
+  - Name: Gravel max grip
+    Type: 3
     PhysColor: {r: 0.83137256, g: 0.627451, b: 0.09019608, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 5
     Drag: 2
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 5, y: 2}
-    Speed: {x: 0.35, y: 0.25}
-    SizeStart: {x: 3.5, y: 2.5}
-    SizeEnd: {x: 28, y: 15}
-  - Type: 3
-    Name: Gravel med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.91764706, g: 0.8980392, b: 0.8745098, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Gravel med grip
+    Type: 3
     PhysColor: {r: 1, g: 0.8156863, b: 0.2784314, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 5
     Drag: 2
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 5, y: 2}
-    Speed: {x: 0.35, y: 0.25}
-    SizeStart: {x: 3.5, y: 2.5}
-    SizeEnd: {x: 28, y: 15}
-  - Type: 3
-    Name: Gravel min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.91764706, g: 0.8980392, b: 0.8745098, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Gravel min grip
+    Type: 3
     PhysColor: {r: 1, g: 1, b: 0.46666667, a: 1}
     UsableGrip: 0
     Rolling: 5
@@ -110,50 +230,122 @@ MonoBehaviour:
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 5, y: 2}
-    Speed: {x: 0.35, y: 0.25}
-    SizeStart: {x: 3.5, y: 2.5}
-    SizeEnd: {x: 28, y: 15}
-  - Type: 7
-    Name: Dirt max grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.91764706, g: 0.8980392, b: 0.8745098, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Dirt max grip
+    Type: 4
     PhysColor: {r: 0.43529412, g: 0.30588236, b: 0.21568628, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 5
     Drag: 2.5
     Bump: {x: 0, y: 12}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 7
-    Name: Dirt med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.4}
+      key1: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
+  - Name: Dirt med grip
+    Type: 4
     PhysColor: {r: 0.62352943, g: 0.49411765, b: 0.40392157, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 5
     Drag: 2.5
     Bump: {x: 0, y: 12}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 7
-    Name: Dirt min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.4}
+      key1: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
+  - Name: Dirt min grip
+    Type: 4
     PhysColor: {r: 0.8117647, g: 0.68235296, b: 0.5921569, a: 1}
     UsableGrip: 0
     Rolling: 5
@@ -161,50 +353,122 @@ MonoBehaviour:
     Bump: {x: 0, y: 12}
     TrailColor: {r: 0.6039216, g: 0.4117647, b: 0.14509805, a: 0.62352943}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 2
-    Name: Grass max grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.4}
+      key1: {r: 0.4627451, g: 0.24313726, b: 0.24313726, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
+  - Name: Grass max grip
+    Type: 2
     PhysColor: {r: 0, g: 0.62352943, b: 0, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 5
     Drag: 20
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.11764706, g: 0.25882354, b: 0.11764706, a: 0.64705884}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 2
-    Name: Grass med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.101960786, g: 0.3529412, b: 0.101960786, a: 1}
+      key1: {r: 0, g: 1, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 0}
+    Size: {x: 0, y: 0}
+    Gravity: 0
+  - Name: Grass med grip
+    Type: 2
     PhysColor: {r: 0, g: 0.8117647, b: 0, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 5
     Drag: 20
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.11764706, g: 0.25882354, b: 0.11764706, a: 0.64705884}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 2
-    Name: Grass min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.101960786, g: 0.3529412, b: 0.101960786, a: 1}
+      key1: {r: 0, g: 1, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 0}
+    Size: {x: 0, y: 0}
+    Gravity: 0
+  - Name: Grass min grip
+    Type: 2
     PhysColor: {r: 0, g: 1, b: 0, a: 1}
     UsableGrip: 0
     Rolling: 5
@@ -212,67 +476,122 @@ MonoBehaviour:
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.11764706, g: 0.25882354, b: 0.11764706, a: 0.64705884}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.7372549, b: 0.32941177, a: 1}
-    SmokeStartVariation: {r: 0.4, g: 0, b: 0, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.627451, b: 0.29411766, a: 1}
-    SmokeEndVariation: {r: 0.43529412, g: 0.2509804, b: 0, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 4
-    Name: Wall
-    PhysColor: {r: 1, g: 0, b: 0, a: 1}
-    UsableGrip: 0
-    Rolling: 1
-    Drag: 0
-    Bump: {x: 0, y: 2}
-    TrailColor: {r: 0.972549, g: 0.9882353, b: 0, a: 1}
-    TrailBump: -1
-    SmokeStart: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
-    SmokeStartVariation: {r: 0.101960786, g: 0.101960786, b: 0.14901961, a: 1}
-    SmokeEnd: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    SmokeEndVariation: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    LifeTime: {x: 4, y: 1}
-    Speed: {x: 0.4, y: 0.1}
-    SizeStart: {x: 0.5, y: 0.6}
-    SizeEnd: {x: 1.5, y: 0.75}
-  - Type: 8
-    Name: Snow max grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.101960786, g: 0.3529412, b: 0.101960786, a: 1}
+      key1: {r: 0, g: 1, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0, y: 0}
+    Size: {x: 0, y: 0}
+    Gravity: 0
+  - Name: Snow max grip
+    Type: 5
     PhysColor: {r: 0.09019608, g: 0.37254903, b: 0.40392157, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 5
     Drag: 2
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 8
-    Name: Snow med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.92156863, g: 1, b: 1, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Snow med grip
+    Type: 5
     PhysColor: {r: 0.2784314, g: 0.56078434, b: 0.5921569, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 5
     Drag: 2
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 8
-    Name: Snow min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.92156863, g: 1, b: 1, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Snow min grip
+    Type: 5
     PhysColor: {r: 0.46666667, g: 0.7490196, b: 0.78039217, a: 1}
     UsableGrip: 0
     Rolling: 5
@@ -280,50 +599,122 @@ MonoBehaviour:
     Bump: {x: 0, y: 10}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -2
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 9
-    Name: Ice max grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.92156863, g: 1, b: 1, a: 0.55}
+      key1: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 0.5}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 5}
+    Size: {x: 0.6, y: 4}
+    Gravity: 0
+  - Name: Ice max grip
+    Type: 6
     PhysColor: {r: 0.09019608, g: 0.37254903, b: 0.40392157, a: 1}
-    UsableGrip: 0
+    UsableGrip: 1
     Rolling: 1
     Drag: 0.2
     Bump: {x: 0, y: 4}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 9
-    Name: Ice med grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.77254903, g: 1, b: 1, a: 0.4}
+      key1: {r: 0.77254903, g: 1, b: 1, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
+  - Name: Ice med grip
+    Type: 6
     PhysColor: {r: 0.2784314, g: 0.56078434, b: 0.5921569, a: 1}
-    UsableGrip: 0
+    UsableGrip: 0.5
     Rolling: 1
     Drag: 0.2
     Bump: {x: 0, y: 4}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
-  - Type: 9
-    Name: Ice min grip
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.77254903, g: 1, b: 1, a: 0.4}
+      key1: {r: 0.77254903, g: 1, b: 1, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
+  - Name: Ice min grip
+    Type: 6
     PhysColor: {r: 0.46666667, g: 0.7490196, b: 0.78039217, a: 1}
     UsableGrip: 0
     Rolling: 1
@@ -331,11 +722,35 @@ MonoBehaviour:
     Bump: {x: 0, y: 4}
     TrailColor: {r: 0.8745098, g: 0.8745098, b: 0.972549, a: 1}
     TrailBump: -1
-    SmokeStart: {r: 0.9490196, g: 0.9490196, b: 1, a: 1}
-    SmokeStartVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    SmokeEnd: {r: 0.98039216, g: 0.98039216, b: 0.98039216, a: 1}
-    SmokeEndVariation: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 1}
-    LifeTime: {x: 6, y: 2}
-    Speed: {x: 0.2, y: 0.05}
-    SizeStart: {x: 1.5, y: 1}
-    SizeEnd: {x: 25, y: 10}
+    GradientColor:
+      serializedVersion: 2
+      key0: {r: 0.77254903, g: 1, b: 1, a: 0.4}
+      key1: {r: 0.77254903, g: 1, b: 1, a: 0.35}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 37617
+      atime2: 65535
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 3
+    LifeTime: {x: 0.05, y: 2}
+    Size: {x: 0.3, y: 0.5}
+    Gravity: 0
