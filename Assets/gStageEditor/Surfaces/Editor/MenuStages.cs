@@ -10,7 +10,19 @@ public class MenuStages
 {
     static string assetPath = "Assets/Stage.data.asset";
 
-    [MenuItem("gRally/Create default stage data", false, 1)]
+    [MenuItem("gRally/1. Create Layers", false, 1)]
+    public static void CreateLayers()
+    {
+        if (File.Exists("ProjectSettings/TagManager.asset"))
+        {
+            File.Move("ProjectSettings/TagManager.asset", "ProjectSettings/TagManager.asset.bak");
+        }
+        File.Copy("Assets/gStageEditor/Resources/TagManager.asset.txt", "ProjectSettings/TagManager.asset");
+        Debug.Log("Layers file created successfully.");
+        Debug.Log("Remember to save the Project to validate the changes.");
+    }
+
+    [MenuItem("gRally/2. Create default stage data", false, 2)]
     public static void GenerateStageData()
     {
         StageData asset = ScriptableObject.CreateInstance<StageData>();
@@ -26,7 +38,7 @@ public class MenuStages
         Debug.Log(string.Format("Stage data in {0} is created successfully.", assetPath));
     }
 
-    [MenuItem("gRally/Create main, stage and layout0 scenes", false, 2)]
+    [MenuItem("gRally/3. Create main, stage and layout0 scenes", false, 3)]
     public static void CreateMainScene()
     {
         if (!Directory.Exists("Assets/Scenes"))
@@ -97,7 +109,7 @@ public class MenuStages
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("main"));
     }
 
-    [MenuItem("gRally/Create new layout", false, 3)]
+    [MenuItem("gRally/4. Create new layout", false, 4)]
     public static void CreateNewLayout()
     {
         if (!Directory.Exists("Assets/Scenes"))

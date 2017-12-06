@@ -85,8 +85,6 @@ internal class grs_PhysRoadv1GUI : ShaderGUI
             WeatherBG = Color.Lerp(guibackgroundColor, WeatherBG, 0.7f);
         }
 
-
-
 		m_box.normal.background = Texture2D.whiteTexture;
         GUI.skin.box = m_box;
         BoxColor = new Color(0.83f, 0.83f, 0.83f, 1.0f);
