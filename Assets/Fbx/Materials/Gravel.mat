@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Gravel
-  m_Shader: {fileID: 4800000, guid: 8d2e3767453dd474b80a3251ac5c4284, type: 3}
+  m_Shader: {fileID: 4800000, guid: e5aa0236d0d463146a32707807f48deb, type: 3}
   m_ShaderKeywords: USE_WET
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,6 +18,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AlbedowithSmoothnessMap:
+        m_Texture: {fileID: 2800000, guid: 6da51ff8e4c3f1245b902f360cb6fc4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,6 +46,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 0be8393f76ce8564280f421eaafb8d92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GrooveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _GrooveTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,6 +60,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normalmap:
+        m_Texture: {fileID: 2800000, guid: e21ec1677435594459eb949cdb8bdef9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -66,6 +78,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PhysicalTexture:
+        m_Texture: {fileID: 2800000, guid: 3bbce8e0fdea38043ab09221946091f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RSpecGTransparencyBAOAWetMap:
+        m_Texture: {fileID: 2800000, guid: 3f659051237889a43a35e1e72967b0c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -74,20 +94,27 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8f01a01bc518c2f40a3d3b4ba5a18804, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.681
     - _DetailNormalMapScale: 1
+    - _Displacement: -10
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Groove: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PhysDebug: 0
     - _Shininess: 0.7
+    - _ShowPhysicalTexture: 0
     - _Smoothness: 0.576
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -95,13 +122,16 @@ Material:
     - _TransparentMode: 0
     - _UVSec: 0
     - _UseGroove: 0
+    - _UseGrooveTex: 0
     - _UseReflectMap: 0
     - _UseTransparentTexture: 0
     - _UseTransparentVertex: 0
     - _UseWet: 1
+    - _Wet: 0
     - _WetDarkening: 0.333
     - _WetInfluence: 0.795
     - _ZWrite: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}

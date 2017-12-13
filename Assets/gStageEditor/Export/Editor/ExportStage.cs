@@ -246,8 +246,19 @@ public class ExportStages
                 {
                     if (mat.shader.name.Contains("gRally/Phys"))
                     {
-                        var tex = mat.GetTexture("_PhysMap");
-                        var texWet = mat.GetTexture("_MainTex");
+                        Texture tex = null;
+                        Texture texWet = null;
+                        
+                        if (mat.shader.name.EndsWith("1"))
+                        {
+                            tex = mat.GetTexture("_PhysMap");
+                            texWet = mat.GetTexture("_MainTex");
+                        }
+                        else if (mat.shader.name.EndsWith("2"))
+                        {
+                            tex = mat.GetTexture("_PhysicalTexture");
+                            texWet = mat.GetTexture("_AlbedowithSmoothnessMap");
+                        }
                         if (tex != null)
                         {
                             if (!matExported.Contains(mat.name))
@@ -503,7 +514,7 @@ public class ExportStages
             ret += string.Format("{0}_{1};", a.alpha.ToString(CultureInfo.InvariantCulture.NumberFormat), a.time.ToString(CultureInfo.InvariantCulture.NumberFormat));
         }
         ret = ret.Remove(ret.Length - 1);
-        ret += string.Format("|{0}", color.mode);
+        ret += string.Format("|{0}", Convert.ToInt32(color.mode));
         return ret;
     }
 }
