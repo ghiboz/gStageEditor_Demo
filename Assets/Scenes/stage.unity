@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000004, guid: fdeecbf1bd42c1149819ae9cd1cb6d5a,
     type: 2}
   m_UseShadowmask: 1
@@ -111,8 +110,6 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-    debug:
-      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1 &977988855
 GameObject:
@@ -186,7 +183,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -202,7 +198,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -4382,7 +4377,18 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.18686008, a: 1}
+  - {r: 0, g: 0, b: 0.13762943, a: 1}
+  - {r: 0, g: 0, b: 0.1285832, a: 1}
+  - {r: 0, g: 0, b: 0.138059, a: 1}
+  - {r: 0, g: 0, b: 0.1956772, a: 1}
+  - {r: 0, g: 0, b: 0.2370837, a: 1}
+  - {r: 0, g: 0, b: 0.012896652, a: 1}
+  - {r: 0, g: 0, b: 0.039199736, a: 1}
+  - {r: 0, g: 0, b: 0.028479032, a: 1}
+  - {r: 0, g: 0, b: 0.041655593, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.011729967, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -5975,6 +5981,12 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.041178916, a: 1}
+  - {r: 0, g: 0, b: 0.016555184, a: 1}
+  - {r: 0, g: 0, b: 0.06094325, a: 1}
+  - {r: 0, g: 0, b: 0.08299382, a: 1}
+  - {r: 0, g: 0, b: 0.14811711, a: 1}
+  - {r: 0, g: 0, b: 0.06273032, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -6157,6 +6169,12 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.11159145, a: 1}
+  - {r: 0, g: 0, b: 0.21932106, a: 1}
+  - {r: 0, g: 0, b: 0.16272785, a: 1}
+  - {r: 0, g: 0, b: 0.08222297, a: 1}
+  - {r: 0, g: 0, b: 0.026063679, a: 1}
+  - {r: 0, g: 0, b: 0.024028637, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -7223,7 +7241,13 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.00066622585, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.0148673095, a: 1}
+  - {r: 0, g: 0, b: 0.0900486, a: 1}
+  - {r: 0, g: 0, b: 0.29434422, a: 1}
+  - {r: 0, g: 0, b: 0.4166029, a: 1}
+  - {r: 0, g: 0, b: 0.08245258, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -7406,6 +7430,11 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.027597638, a: 1}
+  - {r: 0, g: 0, b: 0.4106255, a: 1}
+  - {r: 0, g: 0, b: 0.25005025, a: 1}
+  - {r: 0, g: 0, b: 0.066143, a: 1}
+  - {r: 0, g: 0, b: 0.0038749073, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -8476,6 +8505,10 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.0776226, a: 1}
+  - {r: 0, g: 0, b: 0.15693538, a: 1}
+  - {r: 0, g: 0, b: 0.19832581, a: 1}
+  - {r: 0, g: 0, b: 0.057932034, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -8658,6 +8691,12 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.079862244, a: 1}
+  - {r: 0, g: 0, b: 0.14623834, a: 1}
+  - {r: 0, g: 0, b: 0.0934318, a: 1}
+  - {r: 0, g: 0, b: 0.07279536, a: 1}
+  - {r: 0, g: 0, b: 0.016300578, a: 1}
+  - {r: 0, g: 0, b: 0.0028289934, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -9729,6 +9768,12 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.0075506773, a: 1}
+  - {r: 0, g: 0, b: 0.032534122, a: 1}
+  - {r: 0, g: 0, b: 0.0839249, a: 1}
+  - {r: 0, g: 0, b: 0.08548136, a: 1}
+  - {r: 0, g: 0, b: 0.22337303, a: 1}
+  - {r: 0, g: 0, b: 0.028431624, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -10827,6 +10872,11 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.0030878976, a: 1}
+  - {r: 0, g: 0, b: 0.017243112, a: 1}
+  - {r: 0, g: 0, b: 0.14577171, a: 1}
+  - {r: 0, g: 0, b: 0.055065688, a: 1}
+  - {r: 0, g: 0, b: 0.0279892, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -11016,7 +11066,12 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.07605068, a: 1}
+  - {r: 0, g: 0, b: 0.078949116, a: 1}
+  - {r: 0, g: 0, b: 0.1456743, a: 1}
+  - {r: 0, g: 0, b: 0.0033398937, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.0054126414, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -12040,6 +12095,11 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.028479032, a: 1}
+  - {r: 0, g: 0, b: 0.012896652, a: 1}
+  - {r: 0, g: 0, b: 0.1956772, a: 1}
+  - {r: 0, g: 0, b: 0.1285832, a: 1}
+  - {r: 0, g: 0, b: 0.18686008, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -12352,7 +12412,17 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.028431624, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.22337303, a: 1}
+  - {r: 0, g: 0, b: 0.21421161, a: 1}
+  - {r: 0, g: 0, b: 0.08548136, a: 1}
+  - {r: 0, g: 0, b: 0.1459382, a: 1}
+  - {r: 0, g: 0, b: 0.0839249, a: 1}
+  - {r: 0, g: 0, b: 0.079112515, a: 1}
+  - {r: 0, g: 0, b: 0.032534122, a: 1}
+  - {r: 0, g: 0, b: 0.04629044, a: 1}
+  - {r: 0, g: 0, b: 0.0075506773, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -13947,85 +14017,10 @@ MonoBehaviour:
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
-  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0.022564568, a: 1}
+  - {r: 0, g: 0, b: 0.037441265, a: 1}
+  - {r: 0, g: 0, b: 0.13572893, a: 1}
+  - {r: 0, g: 0, b: 0.0528685, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
   - {r: 0, g: 0, b: 0, a: 1}
@@ -54040,7 +54035,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -54056,7 +54050,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -54124,7 +54117,6 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -54140,7 +54132,6 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
