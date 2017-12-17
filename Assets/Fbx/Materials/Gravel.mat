@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Gravel
   m_Shader: {fileID: 4800000, guid: 8f73bb54337dda643a7591197713aa40, type: 3}
-  m_ShaderKeywords: USE_WET
+  m_ShaderKeywords: USE_WET _USEGROOVETEX_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrooveMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 572078f7efe28924a996e6e0d35f816e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GrooveTex:
@@ -109,7 +109,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Groove: 0
-    - _MaxDisplacementmeters: -0.984
+    - _MaxDisplacementmeters: -0.2
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -124,7 +124,7 @@ Material:
     - _TransparentMode: 0
     - _UVSec: 0
     - _UseGroove: 0
-    - _UseGrooveTex: 0
+    - _UseGrooveTex: 1
     - _UseReflectMap: 0
     - _UseTransparentTexture: 0
     - _UseTransparentVertex: 0
