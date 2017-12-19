@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f62c0a425dce242a56a55d5eaabc31, type: 3}
   m_Name: Stage.data
   m_EditorClassIdentifier: 
-  exportPath: C:/Temp/gStageDemo
+  exportPath: C:/Users/ghiboz/Dropbox/gRally/gRallyContent/Data/Stages/gStageDemo
   latitude: 44.49639
   longitude: 7.5847335
   north: 78

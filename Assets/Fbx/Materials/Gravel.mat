@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Gravel
-  m_Shader: {fileID: 4800000, guid: 8f73bb54337dda643a7591197713aa40, type: 3}
+  m_Shader: {fileID: 4800000, guid: 60130c1f0c5e730478eca826b4c3fac9, type: 3}
   m_ShaderKeywords: USE_WET _USEGROOVETEX_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0

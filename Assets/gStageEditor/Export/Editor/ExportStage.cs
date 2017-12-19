@@ -253,11 +253,13 @@ public class ExportStages
                         {
                             tex = mat.GetTexture("_PhysMap");
                             texWet = mat.GetTexture("_MainTex");
+                            xml.Settings[string.Format("Materials/Material#{0}", idMat + 1)].WriteFloat("maxDisplacement", 0.0f);
                         }
                         else if (mat.shader.name.EndsWith("2"))
                         {
                             tex = mat.GetTexture("_PhysicalTexture");
                             texWet = mat.GetTexture("_AlbedowithSmoothnessMap");
+                            xml.Settings[string.Format("Materials/Material#{0}", idMat + 1)].WriteFloat("maxDisplacement", mat.GetFloat("_MaxDisplacementmeters"));
                         }
                         if (tex != null)
                         {
@@ -332,7 +334,7 @@ public class ExportStages
         {
             return;
         }
-        A.linearTexture = true;
+        A.sRGBTexture = true;
         A.isReadable = true;
         A.mipmapEnabled = false;
         A.filterMode = FilterMode.Point;
