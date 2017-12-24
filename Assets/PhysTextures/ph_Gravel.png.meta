@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3bbce8e0fdea38043ab09221946091f1
-timeCreated: 1513894545
+guid: 81f56c8c35fbe5947ae76e975e98b7d9
+timeCreated: 1513894704
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -8,7 +8,7 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 0
+    sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -26,7 +26,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
