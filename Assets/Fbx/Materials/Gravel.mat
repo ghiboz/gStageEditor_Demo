@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Gravel
   m_Shader: {fileID: 4800000, guid: 60130c1f0c5e730478eca826b4c3fac9, type: 3}
-  m_ShaderKeywords: USE_WET _USEGROOVETEX_ON
+  m_ShaderKeywords: USE_WET
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -82,6 +82,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 81f56c8c35fbe5947ae76e975e98b7d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PuddlesTexture:
+        m_Texture: {fileID: 2800000, guid: 0d0428e3b8d146548afd17b0b4266226, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RSpecGTransparencyBAOAWetMap:
         m_Texture: {fileID: 2800000, guid: 3f659051237889a43a35e1e72967b0c6, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -115,6 +119,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PhysDebug: 0
+    - _PuddlesSize: 5
     - _Shininess: 0.7
     - _ShowPhysicalTexture: 0
     - _Smoothness: 0.576
@@ -124,7 +129,7 @@ Material:
     - _TransparentMode: 0
     - _UVSec: 0
     - _UseGroove: 0
-    - _UseGrooveTex: 1
+    - _UseGrooveTex: 0
     - _UseReflectMap: 0
     - _UseTransparentTexture: 0
     - _UseTransparentVertex: 0
