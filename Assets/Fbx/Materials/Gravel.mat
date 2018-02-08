@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PuddlesTexture:
-        m_Texture: {fileID: 2800000, guid: 0d0428e3b8d146548afd17b0b4266226, type: 3}
+        m_Texture: {fileID: 2800000, guid: 712f91f147bbc354f8cbf87e4fa0a6ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RSpecGTransparencyBAOAWetMap:
@@ -91,6 +91,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -119,7 +123,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PhysDebug: 0
-    - _PuddlesSize: 5
+    - _PuddlesSize: 1.66
     - _Shininess: 0.7
     - _ShowPhysicalTexture: 0
     - _Smoothness: 0.576
