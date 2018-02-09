@@ -102,6 +102,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 36983654d3947d5468bbf70005735a65, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _PuddlesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RSpecGTransparencyBAOAWetMap:
         m_Texture: {fileID: 2800000, guid: d60fc743f94e8814da154c4e59aa4d1f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -124,6 +128,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _Displacement: -10
     - _DstBlend: 0
+    - _Float0: 1
+    - _Float2: 2
     - _GlobalDisplacement: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -134,6 +140,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _PuddlesSize: 0
     - _ShowPhysicalTexture: 0
     - _Smoothness: 0.375
     - _SmoothnessB: 0
@@ -142,6 +149,8 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TransitionDistance: 46.6
+    - _TransitionFalloff: 2.45
     - _UVSec: 0
     - _UseB_Color: 0
     - _UseG_Color: 0
@@ -164,3 +173,5 @@ Material:
     - _SpecColorB: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecColorG: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecColorR: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _UVMultipliers: {r: 0.21, g: 0.46, b: 0, a: 0}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
