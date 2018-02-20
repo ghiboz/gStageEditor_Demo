@@ -129,7 +129,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PhysDebug: 0
-    - _PuddlesSize: 0.38
+    - _PuddlesSize: 1.19
     - _Shininess: 0.7
     - _ShowPhysicalTexture: 0
     - _Smoothness: 0.576

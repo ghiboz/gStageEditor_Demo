@@ -69,7 +69,7 @@ Material:
     - _TransitionFalloff: 4.36
     - _UVMultiplier: 1
     - _UseGrooveTex: 0
-    - __dirty: 1
+    - __dirty: 0
     - _lenght: 46.6
     - _maxnew: 2.25
     - _minnew: -2.98
