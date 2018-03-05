@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 public class LayoutPath : MonoBehaviour
 {
@@ -329,7 +330,8 @@ public class LayoutPath : MonoBehaviour
         }
     }
 
-    [Header("Sentieri link")] public GameObject SentieriWaypoint;
+    [Header("Sentieri link")]
+    public GameObject SentieriWaypoint;
 
     public void GenerateFromWaypoints()
     {
@@ -345,4 +347,22 @@ public class LayoutPath : MonoBehaviour
             }
         }
     }
+
+    public bool ImportMooseBin(string fileName)
+    {
+        points.Clear();
+        var b = new BinaryReader(File.Open(fileName, FileMode.Open));
+        var numPoints = b.ReadUInt32();
+        for (var i = 0; i < numPoints; i++)
+        {
+            var x = b.ReadSingle();
+            var y = b.ReadSingle();
+            var z = b.ReadSingle();
+
+            points.Add(new Vector3(-x, y, z));
+        }
+
+        return points.Count > 0;
+    }
+
 }
