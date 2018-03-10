@@ -54,7 +54,7 @@ Material:
     - _TransitionDistance: 30
     - _TransitionFalloff: 6
     - _UseGrooveTex: 0
-    - __dirty: 0
+    - __dirty: 1
     m_Colors:
     - _OffsetMainTextures: {r: 0, g: 0, b: 0, a: 0}
     - _TilingMainTextures: {r: 1, g: 1, b: 0, a: 0}
