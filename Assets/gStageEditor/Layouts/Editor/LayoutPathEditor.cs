@@ -246,6 +246,7 @@ public class LayoutPathEditor : Editor
         GUI.backgroundColor = new Color(0.0f, 0.8f, 0.5176f);
         GUILayout.Label("Import from Sentieri waypoints", EditorStyles.boldLabel);
         if (GUILayout.Button("Create path")) layoutPath.GenerateFromWaypoints();
+        if (GUILayout.Button("Export path")) layoutPath.ExportFromWaypoints();
 
         GUILayout.Space(10);
         GUI.backgroundColor = new Color32(248, 200, 81, 255);

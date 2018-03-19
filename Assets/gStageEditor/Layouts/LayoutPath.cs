@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 public class LayoutPath : MonoBehaviour
 {
@@ -345,6 +346,27 @@ public class LayoutPath : MonoBehaviour
             {
                 points.Add(SentieriWaypoint.transform.GetChild(i).position);
             }
+        }
+    }
+
+    public void ExportFromWaypoints()
+    {
+
+        float tollerance = 1.7f;
+        var root = new GameObject("Root Export");
+        int i = 0;
+
+        // Simplify.
+        var simplifiedPoints = new List<Vector3>();
+        LineUtility.Simplify(points.ToList(), tollerance, simplifiedPoints);
+
+        foreach (var point in simplifiedPoints)
+        {
+            var w = new GameObject("Point " + i);
+            w.transform.position = point;
+            w.transform.parent = root.transform;
+
+            i++;
         }
     }
 
