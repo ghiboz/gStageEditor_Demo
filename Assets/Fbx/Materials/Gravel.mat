@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AlbedowithSmoothnessMap:
-        m_Texture: {fileID: 2800000, guid: 6da51ff8e4c3f1245b902f360cb6fc4f, type: 3}
+        m_Texture: {fileID: 2800000, guid: dd85de7f5163c2c4191e22573039696a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -63,7 +63,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normalmap:
-        m_Texture: {fileID: 2800000, guid: e21ec1677435594459eb949cdb8bdef9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8e3229242cae297439c5d810b71cb074, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,11 +83,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PuddlesTexture:
-        m_Texture: {fileID: 2800000, guid: 90955cf0c640ef9429f2fcadc9f090b0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8483e227f8901524981c77e7d51489ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RSpecGTransparencyBAOAWetMap:
-        m_Texture: {fileID: 2800000, guid: 78848ef3aaf6a57448e918a46b6c77ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7e34e8ef173c161468fe09b5a26c9f01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -150,7 +150,7 @@ Material:
     - _WetDarkening: 0.333
     - _WetInfluence: 0.795
     - _ZWrite: 1
-    - __dirty: 1
+    - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
