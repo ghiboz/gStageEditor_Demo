@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Gravel
-  m_Shader: {fileID: 4800000, guid: 60130c1f0c5e730478eca826b4c3fac9, type: 3}
-  m_ShaderKeywords: USE_WET
+  m_Name: Blend2_PhysRoadv2_Mats
+  m_Shader: {fileID: 4800000, guid: f7c1cc3bdcc916b45b2e1199351863d6, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -18,8 +18,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlbedowithSmoothnessMap:
-        m_Texture: {fileID: 2800000, guid: dd85de7f5163c2c4191e22573039696a, type: 3}
+    - _AlbedowithSmoothnessMapMat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedowithSmoothnessMapMat2:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -42,28 +46,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FakeNormal:
-        m_Texture: {fileID: 2800000, guid: 0be8393f76ce8564280f421eaafb8d92, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _GrooveMap:
-        m_Texture: {fileID: 2800000, guid: 572078f7efe28924a996e6e0d35f816e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GrooveTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e206c4ff124de5a468aaa64698ab00a4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Normalmap:
-        m_Texture: {fileID: 2800000, guid: 8e3229242cae297439c5d810b71cb074, type: 3}
+    - _NormalmapMat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalmapMat2:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -74,36 +74,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _PhysMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _PhysicalTexture:
-        m_Texture: {fileID: 2800000, guid: 81f56c8c35fbe5947ae76e975e98b7d9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PuddlesTexture:
-        m_Texture: {fileID: 2800000, guid: 8483e227f8901524981c77e7d51489ca, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RSpecGTransparencyBAOAWetMap:
-        m_Texture: {fileID: 2800000, guid: 7e34e8ef173c161468fe09b5a26c9f01, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample0:
+    - _RSpecGTransparencyBAOAWetMapMat1:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _TextureSample3:
-        m_Texture: {fileID: 2800000, guid: 5dfd7f20145df274dbbb19fa2310cad8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TransparentTex:
-        m_Texture: {fileID: 2800000, guid: 8f01a01bc518c2f40a3d3b4ba5a18804, type: 3}
+    - _RSpecGTransparencyBAOAWetMapMat2:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -112,55 +96,32 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Cutoff: 0.681
+    - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _Displacement: -10
     - _DstBlend: 0
-    - _Float0: 1.66
-    - _Float2: 5.56
     - _GR_Displacement: 0
-    - _GlobalDisplacement: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Groove: 0
-    - _MaxDisplacementmeters: -0.924
+    - _MaxDisplacementmeters: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PhysDebug: 0
-    - _PuddlesSize: 2.62
-    - _Shininess: 0.7
-    - _ShowPhysicalTexture: 0
-    - _Smoothness: 0.576
+    - _PuddlesSize: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TransitionDistance: 21.7
-    - _TransitionFalloff: 5.56
-    - _TransparentMode: 0
+    - _TransitionDistance: 30
+    - _TransitionFalloff: 6
     - _UVSec: 0
-    - _UseGroove: 0
     - _UseGrooveTex: 0
     - _UsePuddlesTexture: 0
-    - _UseReflectMap: 0
-    - _UseTransparentTexture: 0
-    - _UseTransparentVertex: 0
-    - _UseWet: 1
-    - _Wet: 0
-    - _WetDarkening: 0.333
-    - _WetInfluence: 0.795
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: -0.33, g: 0, b: 0, a: 0}
     - _OffsetMainTextures: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _Tiling: {r: 1.79, g: 2, b: 0, a: 0}
     - _TilingMainTextures: {r: 1, g: 1, b: 0, a: 0}
     - _UVMultipliers: {r: 1, g: 0.2, b: 0, a: 0}
-    - _Vector0: {r: 1, g: 0.2, b: 0, a: 0}

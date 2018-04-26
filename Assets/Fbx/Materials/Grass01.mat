@@ -8,7 +8,7 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: Grass01
   m_Shader: {fileID: 4800000, guid: 60130c1f0c5e730478eca826b4c3fac9, type: 3}
-  m_ShaderKeywords: USE_R_COLOR USE_WET _USEGROOVETEX_ON
+  m_ShaderKeywords: USE_R_COLOR USE_WET _USEGROOVETEX_ON _USEPUDDLESTEXTURE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -130,6 +130,7 @@ Material:
     - _DstBlend: 0
     - _Float0: 1
     - _Float2: 2
+    - _GR_Displacement: 1
     - _GlobalDisplacement: 0
     - _GlossMapScale: 1
     - _Glossiness: 0
@@ -155,6 +156,7 @@ Material:
     - _UseB_Color: 0
     - _UseG_Color: 0
     - _UseGrooveTex: 1
+    - _UsePuddlesTexture: 1
     - _UseR_Color: 1
     - _UseReflectMap: 0
     - _UseReflectMapB: 0

@@ -49,12 +49,14 @@ Material:
     m_Floats:
     - _Cutoff: 0.681
     - _Float0: 4.8
+    - _GR_Displacement: 1
     - _MaxDisplacementmeters: -0.2
     - _PuddlesSize: 0
     - _TransitionDistance: 30
     - _TransitionFalloff: 6
     - _UseGrooveTex: 0
-    - __dirty: 1
+    - _UsePuddlesTexture: 0
+    - __dirty: 0
     m_Colors:
     - _OffsetMainTextures: {r: 0, g: 0, b: 0, a: 0}
     - _TilingMainTextures: {r: 1, g: 1, b: 0, a: 0}
